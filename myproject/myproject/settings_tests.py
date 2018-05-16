@@ -22,4 +22,6 @@ NOSE_ARGS = [
 
     # third-party plugins
     '--with-progressive',
+
+    # for more plugins see `pip search "nose-"`
 ]
