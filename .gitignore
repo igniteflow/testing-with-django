@@ -1,1 +1,5 @@
 *.pyc
+
+# testing
+myproject/.coverage
+myproject/.noseids
