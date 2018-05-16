@@ -1,12 +1,12 @@
 *.pyc
 
 # testing
-myproject/.coverage
-myproject/.noseids
-myproject/cover/
+.coverage
+.noseids
+cover/
 cov.xml
-myproject/coverage.xml
-myproject/nosetests.xml
+coverage.xml
+nosetests.xml
 
 # editors
 .vscode/
