@@ -18,4 +18,5 @@ NOSE_ARGS = [
     # coverage
     '--with-coverage',
     '--cover-package=myapp',
+    '--cover-html',
 ]
