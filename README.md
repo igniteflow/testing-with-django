@@ -4,6 +4,7 @@ A simple step-by-step introduction starting from a vanilla Django project and gr
 
 ## Getting started
 
+    git clone git@github.com:igniteflow/testing-with-django.git
     mkvirtualenv testing-with-django
     cd myproject
     ./install_deps.sh
