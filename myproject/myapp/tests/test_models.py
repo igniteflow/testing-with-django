@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+from unittest import skip
+
 from django.test import TestCase
 
 from ..models import Car
@@ -14,6 +16,7 @@ class CarTestCase(TestCase):
             car.name, "foo"
         )
 
+    @skip('Skipping')
     def test_car_doors(self):
         car = Car(num_doors=1)
         self.assertEqual(
