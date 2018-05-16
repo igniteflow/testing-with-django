@@ -19,4 +19,7 @@ NOSE_ARGS = [
     '--with-coverage',
     '--cover-package=myapp',
     '--cover-html',
+
+    # third-party plugins
+    '--with-progressive',
 ]
