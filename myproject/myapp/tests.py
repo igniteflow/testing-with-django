@@ -3,8 +3,19 @@ from __future__ import unicode_literals
 
 from django.test import TestCase
 
+from .models import Car
 
-class MyFirstTestCase(TestCase):
 
-    def test_addition(self):
-        self.assertEqual(2 + 2, 4)
+class CarTestCase(TestCase):
+
+    def test_name(self):
+        car = Car(name="foo")
+        self.assertEqual(
+            car.name, "foo"
+        )
+
+    def test_car_doors(self):
+        car = Car(num_doors=1)
+        self.assertEqual(
+            car.num_doors, 1
+        )
