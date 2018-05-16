@@ -4,3 +4,9 @@
 myproject/.coverage
 myproject/.noseids
 myproject/cover/
+cov.xml
+myproject/coverage.xml
+myproject/nosetests.xml
+
+# editors
+.vscode/
