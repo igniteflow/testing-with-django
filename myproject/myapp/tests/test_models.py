@@ -9,6 +9,7 @@ from ..models import Car
 class CarTestCase(TestCase):
 
     def test_name(self):
+        assert False
         car = Car(name="foo")
         self.assertEqual(
             car.name, "foo"

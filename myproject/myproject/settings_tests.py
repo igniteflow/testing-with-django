@@ -19,4 +19,6 @@ NOSE_ARGS = [
     '--with-coverage',
     '--cover-package=myapp',
     '--cover-html',
+    
+    '--pdb',
 ]
