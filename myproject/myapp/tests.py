@@ -3,4 +3,8 @@ from __future__ import unicode_literals
 
 from django.test import TestCase
 
-# Create your tests here.
+
+class MyFirstTestCase(TestCase):
+
+    def test_addition(self):
+        self.assertEqual(2 + 2, 3)
